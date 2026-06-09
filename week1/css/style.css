@@ -1,0 +1,32 @@
+* {
+  background-color: rgb(216, 211, 211);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  margin: 0px auto;
+}
+table tr td {
+  text-align: left;
+}
+
+section#photo img {
+  height: 200px;
+}
+
+button {
+  background-color: rgb(73, 73, 142);
+  color: white;
+  padding: 5px 10px;
+}
+
+table {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  border-width: 1px;
+  background-color: white;
+}

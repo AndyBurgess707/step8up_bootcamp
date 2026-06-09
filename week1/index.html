@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andy Burgess</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <h1>Andy Burgess</h1>
     <section id="photo">
       <p><img src="IMGP8257.jpg" alt="A picture of Andy" /></p>
     </section>
@@ -15,6 +17,40 @@
     </section>
     <section id="bio">
       <p>I have been developing sofware for decades</p>
+    </section>
+    <section id="contact-form">
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="name">Your Name</label></td>
+            <td><input type="text" name="name" id="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Your E-Mail</label></td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="telephone">Your Telephone Number</label></td>
+            <td><input type="tel" name="telephone" id="telephone" /></td>
+          </tr>
+          <tr>
+            <td><label for="query">Your Query is about</label></td>
+            <td>
+              <input
+                type="radio"
+                name="query"
+                id="query-software"
+              />software<br />
+              <input type="radio" name="query" id="query-web" />web<br />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="message">Your Message</label></td>
+            <td><textarea name="message" id="message"></textarea></td>
+          </tr>
+        </table>
+        <button type="submit">Submit Form</button>
+      </form>
     </section>
   </body>
 </html>
